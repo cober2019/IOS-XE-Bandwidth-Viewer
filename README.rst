@@ -1,3 +1,5 @@
+.. image:: https://travis-ci.com/cober2019/IOS-XE-Bandwidth-Viewer.svg?branch=main
+    :target: https://travis-ci.com/cober2019/IOS-XE-Bandwidth-Viewer
 .. image:: https://img.shields.io/badge/NETCONF-required-blue
     :target: -
 .. image:: https://img.shields.io/badge/IOS--XE-required-blue
