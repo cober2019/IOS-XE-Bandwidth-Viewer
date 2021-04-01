@@ -110,7 +110,6 @@ def get_stats(session, interface=None):
     try:
         get_state = session.get(xml_filter)
         int_status = xmltodict.parse(get_state.xml)["rpc-reply"]["data"]
-        print(int_status)
         interface_state = int_status["interfaces-state"]["interface"]
     except manager.operations.errors.TimeoutExpiredError as error:
         print(error)
