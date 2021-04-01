@@ -63,7 +63,7 @@ def create_netconf_connection(username, password, host, port) -> manager:
     # Attempt connection 3 times
     while retries != 3:
         try:
-            print(username, password, host, port)
+            
             netconf_session = manager.connect(host=host, port=port, username=username,
                                               password=password,
                                               device_params={'name': 'csr'})
