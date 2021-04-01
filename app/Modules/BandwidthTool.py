@@ -62,7 +62,7 @@ class CalcBandwidth:
                     speed_conversion = int(int(interface.get("speed")))
                     bytes_out_diff = int(interface.get("statistics").get("out-octets", {})) - int(self.previous_out_bandwidth)
                     calc_1 = round(bytes_out_diff * 8 * 100, 4)
-                    calc_2 = round(10 * int(speed_conversion), 2)
+                    calc_2 = round(15 * int(speed_conversion), 2)
                     mbps_out = round(calc_1 / calc_2 / 100, 2) * int(speed_conversion / 1e+6)
                     self.previous_out_bandwidth = interface.get("statistics").get("out-octets", {})
                 except ValueError:
@@ -95,7 +95,7 @@ class CalcBandwidth:
                     speed_conversion = int(int(interface.get("speed")))
                     bytes_in_diff = int(interface.get("statistics").get("in-octets", {})) - int(self.previous_in_bandwidth)
                     calc_1 = round(bytes_in_diff * 8 * 100, 4)
-                    calc_2 = round(10 * int(speed_conversion), 2)
+                    calc_2 = round(15 * int(speed_conversion), 2)
                     mbps_in = round(calc_1 / calc_2 / 100, 2)  * int(speed_conversion / 1e+6)
                     self.previous_in_bandwidth = interface.get("statistics").get("in-octets", {})
                 except ValueError:
