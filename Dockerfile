@@ -1,6 +1,6 @@
 FROM ubuntu:latest
-COPY . /Bandwith-Viewer
-WORKDIR /Bandwith-Viewer
+COPY . /Bandwidth-Viewer
+WORKDIR /Bandwidth-Viewer
 RUN apt update
 RUN DEBIAN_FRONTEND='noninteractive' apt  install -y python3 python3-dev python3-pip nginx
 RUN DEBIAN_FRONTEND='noninteractive' pip3 install uwsgi
