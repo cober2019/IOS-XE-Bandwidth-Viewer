@@ -31,6 +31,9 @@ YANG Model(s):
 .. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Index.PNG
     :target: -
 
+.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/InterfaceDetails.PNG
+    :target: -
+    
 **Live Charts --> (REQUIRES BROWSER POP-UPS):**
 ================================================
 
