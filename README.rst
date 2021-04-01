@@ -20,7 +20,7 @@ YANG Model(s):
 **Device Login:**
 ==================
  
-.. image:: https://github.com/cober2019/Bandwith-Viewer/blob/main/images/Login.PNG
+.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Login.PNG
     :target: -
     
 **Index/Home Page:**
@@ -28,7 +28,7 @@ YANG Model(s):
 
   - Select dropdown action button for viewing interface badnwidth or interface details (CLI View of interface.) <- Cisco IOS-XE
 
-.. image:: https://github.com/cober2019/Bandwith-Viewer/blob/main/images/Index.PNG
+.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Index.PNG
     :target: -
 
 **Live Charts --> (REQUIRES BROWSER POP-UPS):**
@@ -37,6 +37,6 @@ YANG Model(s):
   - All data should reflect positive numbers. If a -1 is returned it means that there was a error in calculation
   - If graph shows '0' it means there wasn't a difference in packet in/out in the polling period (15 Seconds)
 
-.. image:: https://github.com/cober2019/Bandwith-Viewer/blob/main/images/Bandwidth.PNG
+.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Bandwidth.PNG
     :target: -
 
