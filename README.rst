@@ -21,7 +21,7 @@ YANG Model(s):
 
 **Device Login:**
 ==================
-  - Use URL http://{your_local_ip}:5000/
+  - Use URL http://{**your_local_ip**}:5000/
   
 .. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Login.PNG
     :target: -
