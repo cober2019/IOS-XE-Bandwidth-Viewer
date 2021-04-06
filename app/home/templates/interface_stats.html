@@ -10,13 +10,6 @@
 
 <script>
 
-window.setTimeout(function () {
-	window.location.reload();
-	}, 200000);
-
-</script>
-<script>
-
 window.onload =  function() {
 // Bandwidth In Chart
 
@@ -62,7 +55,7 @@ updateData();
                     });
                 } else {
                     // Bypass first bandwidth poll as there is no previous poll vale to calculate. Map as 0 on graph
-                    if ( xValue != 0 ){
+                    if ( xValue != 0  && response >= 0){
                         //dataPoints.shift();
                         dataPoints.push({x: data[0][0], y: parseInt(response)});
                         xValue++;
@@ -133,7 +126,7 @@ updateDataOut();
                 });
             } else {
                 // Bypass first bandwidth poll as there is no previous poll vale to calculate. Map as 0 on graph
-                if (xValueOut != 0){
+                if (xValueOut != 0  && response >= 0){
                     //dataPointsOut.shift();
                     dataPointsOut.push({x: data[0][0], y: parseInt(response)});
                     xValueOut++;
@@ -206,7 +199,7 @@ updateDataDiscardIn();
                     });
                 } else {
                     // Bypass first bandwidth poll as there is no previous poll vale to calculate. Map as 0 on graph
-                    if ( xValueDiscardIn != 0){
+                    if ( xValueDiscardIn != 0 && response >= 0){
                         //dataPoints.shift();
                         dataPointsDiscardsIn.push({x: data[0][0], y: parseInt(response)});
                         xValueDiscardIn++;
@@ -275,7 +268,7 @@ updateDataDiscardOut();
                 });
             } else {
             // Bypass first bandwidth poll as there is no previous poll vale to calculate. Map as 0 on graph
-            if(xValueDiscardOut != 0 ){
+            if(xValueDiscardOut != 0  && response >= 0){
                 //dataPointsOut.shift();
                 dataPointsDisOut.push({x: data[0][0], y: parseInt(response)});
                 xValueDiscardOut++;
