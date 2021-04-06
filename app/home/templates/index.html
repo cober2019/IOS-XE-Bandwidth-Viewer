@@ -90,12 +90,13 @@ window.onload =  function() {
             <div id="cpuUsage" style="height: 150px; width: 100%;"></div>
         </div>
 </div>
+{% if interfaces is not  none%}
 <div class="row">
     <div class="col-xl-12">
             <div class="card">
                 <div class="card-header border-0">
                     <div class="row align-items-center">
-                        <div class="col ">
+                        <div class="col">
                             <h3 class="mb-0">Interfaces</h3>
                         </div>
                     </div>
@@ -171,6 +172,8 @@ window.onload =  function() {
                                            onclick="moreIntDetails(this.name)">Interface Details</a>
                                         <a class="dropdown-item" name="{{ k }}"
                                            onclick="openBandwidthPage(this.name)">Bandwidth Usage</a>
+                                        <a class="dropdown-item" name="{{ k }}"
+                                           onclick="openQosPage(this.name)">Qos Stats</a>
                                     </div>
                                 </div>
                             </td>
@@ -182,6 +185,24 @@ window.onload =  function() {
             </div>
         </div>
     </div>
+{%else%}
+<br/>
+<br/>
+<div class="row">
+    <div class="col-xl-12">
+        <div class="card">
+            <div class="card-header border-0">
+                <div class="row align-items-center">
+                    <div class="col">
+
+                        <h3  class="text-center" >Couldn't Collect Interfaces. Please Refresh Page</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endif%}
 
 
 
