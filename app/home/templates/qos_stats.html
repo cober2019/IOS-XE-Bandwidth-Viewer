@@ -1,0 +1,27 @@
+{% extends 'layouts/qos_base.html' %}
+
+{% block title %} {{interface}} {% endblock title %}
+
+{% block stylesheets %}
+
+
+
+{% endblock stylesheets %}
+
+{% block content %}
+
+<script>
+
+window.onload =  function() {
+   qosCharts("{{interface}}")
+}
+</script>
+<h1 style="text-align: center; color: black;" class="mb-0">Interface {{interface}} Qos Statistics</h1>
+
+
+{% endblock content %}
+
+{% block javascripts %}
+
+
+{% endblock javascripts %}
