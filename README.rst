@@ -21,7 +21,7 @@ YANG Model(s):
   - To launch app run "run.py" in the main directory
   - Use URL http://{**your_local_ip**}:5000/
   
-.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Login.PNG
+.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/NewLogin.PNG
     :target: -
     
 **Index/Home Page:**
