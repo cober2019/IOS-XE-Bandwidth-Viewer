@@ -1,6 +1,6 @@
 """Bandwidth calculator class used to poll and calculate various statistics"""
 
-import BandwidthApp.app.Modules.ClassMaps as SearchClassMaps
+import app.Modules.ClassMaps as SearchClassMaps
 from ncclient import manager
 import xmltodict
 import time
