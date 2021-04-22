@@ -30,7 +30,7 @@ YANG Model(s):
   - Select dropdown action button for viewing interface badnwidth or interface details (CLI View of interface.) <- Cisco IOS-XE
 
 
-.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/InterfaceDetails.PNG
+.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Home.PNG
     :target: -
     
 **Live Charts --> (REQUIRES BROWSER POP-UPS):**
