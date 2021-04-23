@@ -640,7 +640,7 @@ function verifyQos(response, pollInterval){
     // Check data length. Close window if ok is clicked
     tries += 1
     if (Object.keys(response['data']).length == 0 && tries == 2){
-        confirm('An Error Occured or Qos Is Assigned')
+        confirm('An Error Occured or Qos Isnt Assigned')
         clearTimeout(pollInterval)
         window.close()
 
