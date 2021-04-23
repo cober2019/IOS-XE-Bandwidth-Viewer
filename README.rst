@@ -39,8 +39,7 @@ YANG Model(s):
   - All data should reflect positive numbers. If a -1 is returned it means that there was a error in calculation
   - If graph shows '0' it means there wasn't a difference in packet in/out in the polling period (15 Seconds)
 
-.. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Bandwidth.mp4
-    :target: -
+    ![](https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Bandwidth.mp4)
     
 .. image:: https://github.com/cober2019/IOS-XE-Bandwidth-Viewer/blob/main/images/Qos.PNG
     :target: -
